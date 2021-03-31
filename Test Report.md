@@ -8,8 +8,9 @@
 
 В результате тестирования выявлены следующие дефекты:
 
-* [FAIL при корректном номере карты (American Express) в Credit Card Number Validator](https://github.com/Aleks4404/Test_Report/issues/1)
-* [FAIL при корректном номере карты (Diners Club) в коде Credit Card Number Validator](https://github.com/Aleks4404/Test_Report/issues/2)
+* [Result is FAIL валидной номер карты (VISA)](https://github.com/Aleks4404/Test_Report/issues/1)
+* [Result is FAIL валидной номер карты (American Express (AMEX))](https://github.com/Aleks4404/Test_Report/issues/2)
+* [Result is FAIL валидной номер карты (American Express (AMEX))](https://github.com/Aleks4404/Test_Report/issues/3)
 
 ## Описание процесса тестирования
 
@@ -20,11 +21,25 @@
 В качестве тестовых данных использовались валидные и невалидные номера карт, валидные сгенерированы на сайте https://www.freeformatter.com/credit-card-number-generator-validator.html
 
 Валидные номера карт:
-* 4929850605056108 - ожидаемый результат - Result is OK.
-* 4532657057523629 - ожидаемый результат - Result is OK.
-* 55464914677100034 - ожидаемый результат - Result is OK.
-* 5351719427810741 - ожидаемый результат - Result is OK.
-* 5155809371895414 - ожидаемый результат - Result is OK.
+VISA:
+* 4716159148446538 - ожидаемый результат - Result is OK
+* 4929688265750762 - ожидаемый результат - Result is OK
+* 4539917862079137368 - ожидаемый результат - Result is OK
+
+MasterCard:
+* 5230479895009410 - ожидаемый результат - Result is OK
+* 5158917014078921 - ожидаемый результат - Result is OK
+* 5586377820992058 - ожидаемый результат - Result is OK
+
+American Express (AMEX):
+* 344526600602089 - ожидаемый результат - Result is OK
+* 377813276481380 - ожидаемый результат - Result is OK
+* 373825299665876 - ожидаемый результат - Result is OK
+
+Visa Electron:
+* 4844634278855455 - ожидаемый результат - Result is OK
+* 4175001608229687 - ожидаемый результат - Result is OK
+* 4913560635377238 - ожидаемый результат - Result is OK
 
 Невалидные номера карт:
 * 1111111111111111 - ожидаемый результат - Result is FAIL.
