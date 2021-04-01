@@ -8,9 +8,8 @@
 
 В результате тестирования выявлены следующие дефекты:
 
-* [Result is FAIL валидной номер карты (VISA)](https://github.com/Aleks4404/Test_Report/issues/1)
-* [Result is FAIL валидной номер карты (American Express (AMEX))](https://github.com/Aleks4404/Test_Report/issues/2)
-* [Result is FAIL валидной номер карты (American Express (AMEX))](https://github.com/Aleks4404/Test_Report/issues/3)
+* [Сообщение Result is FAIL при проверке кода программы корректным номером карты](https://github.com/Aleks4404/Test_Report/issues/1)
+* [Сообщение Result is FAIL при проверке кода программы корректным номером карты](https://github.com/Aleks4404/Test_Report/issues/2)
 
 ## Описание процесса тестирования
 
